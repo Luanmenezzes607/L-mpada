@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada</title>
+    <style>
+        body{
+            text-align: center;
+        }
+
+        section img{
+            width: 300px;
+        }
+
+        section input{
+            margin: 10px;
+            padding: 5px;
+            width: 80px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lâmpada</h1>
+    </header>
+    <main>
+        <section>
+            <img src="img/desligada.jpg" alt="" id="imagem">
+            <div>
+                <input type="button" value="Ligar" onclick="acender()" id="lig">
+                <input type="button" value="Desligar" onclick="desliga()" id="desl">
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
